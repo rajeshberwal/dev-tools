@@ -3,6 +3,8 @@
 sudo apt update
 sudo apt upgrade -y
 
+sudo apt install snapd
+
 # * installing git, curl, wget, python3 and ssh
 sudo apt install git curl wget python3 openssh-client
 
