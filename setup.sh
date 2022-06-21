@@ -28,25 +28,6 @@ sudo snap install code --classic
 sudo snap install postman slack zoom-client dbeaver-ce
 
 
-# -----------------------------------------------------------------------------------------------------------------
-# * Jenkkins setup
-# For more details https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-22-04
-
-# Installing Jenkins'
-# wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key |sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
-
-#sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-
-#sudo apt update
-
-#sudo apt install jenkins
-
-# Starting Jenkins
-#sudo systemctl start jenkins.service
-
-#sudo systemctl status jenkins
-
-# -------------------------------------------------------------------------------------------------------------
 
 # ---------------------------
 # installing postgresql
